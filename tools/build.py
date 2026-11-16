@@ -11,8 +11,20 @@ import json, sys, shutil, html, datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-D = json.loads((ROOT / "data/perfumes.json").read_text(encoding="utf8"))
-S = json.loads((ROOT / "data/site.json").read_text(encoding="utf8"))
+def erro(msg):
+    print("ERRO: " + msg)
+    sys.exit(1)
+
+
+def ler(nome):
+    try:
+        return json.loads((ROOT / nome).read_text(encoding="utf8"))
+    except json.JSONDecodeError as ex:
+        erro(f"{nome} tem um erro de escrita na linha {ex.lineno}, coluna {ex.colno}: {ex.msg}. Costuma ser uma vírgula a mais ou em falta, ou umas aspas por fechar.")
+
+
+D = ler("data/perfumes.json")
+S = ler("data/site.json")
 if "--url" in sys.argv:
     S["url"] = sys.argv[sys.argv.index("--url") + 1]
 URL = S["url"].rstrip("/")
@@ -21,6 +33,23 @@ F = {"doce": "Doces", "fresco": "Frescos", "especiado": "Especiados", "noite": "
      "trabalho": "Trabalho", "date": "Date", "dia": "Dia a dia"}
 OC = {"noite": "Noite", "date": "Date", "festa": "Festa", "dia": "Dia a dia", "trabalho": "Trabalho"}
 e = lambda s: html.escape(str(s), quote=True)
+_ids = set()
+for _i, _p in enumerate(D, 1):
+    _n = _p.get("nome", f"#{_i}")
+    for _k in ("id", "marca", "nome", "notas", "tags", "ocasioes", "estacao", "descricao"):
+        if _k not in _p or _p[_k] in ("", [], None):
+            erro(f"o perfume {_n} não tem o campo '{_k}'.")
+    if not all(c in "abcdefghijklmnopqrstuvwxyz0123456789" for c in _p["id"]):
+        erro(f"o id '{_p['id']}' ({_n}) só pode ter letras minúsculas sem acentos e números, sem espaços.")
+    if _p["id"] in _ids:
+        erro(f"o id '{_p['id']}' está repetido: cada perfume precisa de um id único.")
+    _ids.add(_p["id"])
+    for _t in _p["tags"]:
+        if _t not in F:
+            erro(f"a tag '{_t}' de {_n} não existe. Tags válidas: {', '.join(F)}.")
+    for _o in _p["ocasioes"]:
+        if _o not in OC:
+            erro(f"a ocasião '{_o}' de {_n} não existe. Ocasiões válidas: {', '.join(OC)}.")
 BYID = {p["id"]: p for p in D}
 VERSION = datetime.date.today().isoformat()
 

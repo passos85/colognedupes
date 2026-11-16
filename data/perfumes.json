@@ -1095,5 +1095,244 @@
   "descricao": "Doce e especiado, com madeiras que lhe dão elegância. Um perfil quente para a noite e para o frio.",
   "piramide": null,
   "verificado": false
+ },
+ {
+  "piramide": null,
+  "verificado": false,
+  "id": "teriaqintense",
+  "marca": "LATTAFA",
+  "nome": "TERIAQ INTENSE",
+  "notas": [
+   "Açafrão",
+   "Couro",
+   "Caramelo",
+   "Baunilha"
+  ],
+  "tags": [
+   "doce",
+   "especiado",
+   "noite"
+  ],
+  "ocasioes": [
+   "noite",
+   "date"
+  ],
+  "estacao": "outono e inverno",
+  "descricao": "Quente e especiado, com açafrão e couro sobre caramelo e baunilha. Intenso e envolvente: pede noites frias."
+ },
+ {
+  "piramide": null,
+  "verificado": false,
+  "id": "pridenebras",
+  "marca": "LATTAFA",
+  "nome": "PRIDE NEBRAS",
+  "notas": [
+   "Framboesa",
+   "Cacau",
+   "Baunilha",
+   "Âmbar"
+  ],
+  "tags": [
+   "doce",
+   "date",
+   "noite"
+  ],
+  "ocasioes": [
+   "date",
+   "noite"
+  ],
+  "estacao": "outono e inverno",
+  "descricao": "Doce e gourmand, com framboesa e cacau sobre baunilha e âmbar. Pensado para o frio e para encontros."
+ },
+ {
+  "piramide": null,
+  "verificado": false,
+  "id": "odysseydubaichocolat",
+  "marca": "ARMAF",
+  "nome": "ODYSSEY DUBAI CHOCOLAT",
+  "notas": [
+   "Pistácio",
+   "Café",
+   "Chocolate",
+   "Caramelo"
+  ],
+  "tags": [
+   "doce",
+   "noite",
+   "date"
+  ],
+  "ocasioes": [
+   "noite",
+   "date"
+  ],
+  "estacao": "outono e inverno",
+  "descricao": "Gourmand de sobremesa, com pistácio, café e chocolate sobre caramelo. Muito doce: melhor para o frio e para quem gosta de cheiros comestíveis."
+ },
+ {
+  "piramide": null,
+  "verificado": false,
+  "id": "sabahalward",
+  "marca": "AL WATANIAH",
+  "nome": "SABAH AL WARD",
+  "notas": [
+   "Mandarina",
+   "Cacau",
+   "Jasmim",
+   "Baunilha"
+  ],
+  "tags": [
+   "doce",
+   "dia",
+   "date"
+  ],
+  "ocasioes": [
+   "dia",
+   "date"
+  ],
+  "estacao": "primavera e outono",
+  "descricao": "Floral e cremoso, com mandarina e flor de laranjeira sobre cacau e baunilha. Suave e fácil de usar."
+ },
+ {
+  "piramide": null,
+  "verificado": false,
+  "id": "victoria",
+  "marca": "LATTAFA",
+  "nome": "VICTORIA",
+  "notas": [
+   "Limão",
+   "Néroli",
+   "Baunilha",
+   "Cremoso"
+  ],
+  "tags": [
+   "doce",
+   "fresco",
+   "dia"
+  ],
+  "ocasioes": [
+   "dia"
+  ],
+  "estacao": "primavera e verão",
+  "descricao": "Doce e cítrico, com um toque de tarte de limão com merengue, néroli e baunilha. Leve e confortável para o dia a dia."
+ },
+ {
+  "piramide": null,
+  "verificado": false,
+  "id": "haya",
+  "marca": "LATTAFA",
+  "nome": "HAYA",
+  "notas": [
+   "Rosa",
+   "Gardénia",
+   "Praliné",
+   "Âmbar"
+  ],
+  "tags": [
+   "doce",
+   "dia",
+   "date"
+  ],
+  "ocasioes": [
+   "dia",
+   "date"
+  ],
+  "estacao": "primavera e outono",
+  "descricao": "Floral e doce, com rosa e gardénia sobre praliné e âmbar. Cremoso e confortável."
+ },
+ {
+  "piramide": null,
+  "verificado": false,
+  "id": "sheikhalshuyukhluxe",
+  "marca": "LATTAFA",
+  "nome": "SHEIKH AL SHUYUKH LUXE EDITION",
+  "notas": [
+   "Açafrão",
+   "Caramelo",
+   "Oud",
+   "Baunilha"
+  ],
+  "tags": [
+   "doce",
+   "especiado",
+   "noite"
+  ],
+  "ocasioes": [
+   "noite",
+   "date"
+  ],
+  "estacao": "outono e inverno",
+  "descricao": "Especiado e doce, com açafrão e caramelo sobre oud e baunilha. Intenso, para o frio."
+ },
+ {
+  "piramide": null,
+  "verificado": false,
+  "id": "ajwad",
+  "marca": "LATTAFA",
+  "nome": "AJWAD",
+  "notas": [
+   "Frutado",
+   "Rosa",
+   "Almíscar",
+   "Baunilha"
+  ],
+  "tags": [
+   "doce",
+   "dia",
+   "date"
+  ],
+  "ocasioes": [
+   "dia",
+   "date"
+  ],
+  "estacao": "todo o ano",
+  "descricao": "Frutado e floral, com rosa e jasmim sobre almíscar e baunilha. Macio e fácil de usar. O formato habitual é de 60 ml."
+ },
+ {
+  "piramide": null,
+  "verificado": false,
+  "id": "emaan",
+  "marca": "LATTAFA",
+  "nome": "EMAAN",
+  "notas": [
+   "Bergamota",
+   "Tuberosa",
+   "Baunilha",
+   "Almíscar"
+  ],
+  "tags": [
+   "fresco",
+   "dia",
+   "date"
+  ],
+  "ocasioes": [
+   "dia",
+   "date"
+  ],
+  "estacao": "primavera e verão",
+  "descricao": "Floral e luminoso, com bergamota e tuberosa sobre baunilha e almíscar. Elegante e discreto."
+ },
+ {
+  "piramide": null,
+  "verificado": false,
+  "id": "yaramoi",
+  "marca": "LATTAFA",
+  "nome": "YARA MOI",
+  "notas": [
+   "Jasmim",
+   "Pêssego",
+   "Caramelo",
+   "Sândalo"
+  ],
+  "tags": [
+   "doce",
+   "dia",
+   "date"
+  ],
+  "ocasioes": [
+   "dia",
+   "date"
+  ],
+  "estacao": "todo o ano",
+  "descricao": "Doce e macio, com jasmim e pêssego sobre caramelo e sândalo. Confortável para o dia a dia."
  }
 ]

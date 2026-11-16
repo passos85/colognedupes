@@ -1,6 +1,6 @@
 # CologneDupes — site para GitHub Pages
 
-Site estático (sem cookies, sem rastreio): 45 perfumes, páginas por perfume e por vibe, pesquisa, "perfume do dia", teste "Descobre o teu perfume", comunidade/comentários (Giscus), página de privacidade, 404, sitemap e robots.
+Site estático (sem cookies, sem rastreio): 55 perfumes, páginas por perfume e por vibe, pesquisa, "perfume do dia", teste "Descobre o teu perfume", comunidade/comentários (Giscus), página de privacidade, 404, sitemap e robots.
 
 ## 1. Publicar (10 minutos)
 
@@ -54,9 +54,47 @@ O site antigo usava uma base de dados que só funciona dentro do claude.ai; aqui
 ```
 6. Corre `python3 tools/build.py` e envia os ficheiros. Quem quiser comentar precisa de conta GitHub; modera apagando comentários nas Discussions.
 
-## 5. Adicionar ou corrigir perfumes
+## 5. Adicionar ou corrigir perfumes (só no navegador, sem instalar nada)
 
-Edita `data/perfumes.json` (copia um bloco existente, com `id` único e sem espaços) e corre `python3 tools/build.py`. Tags válidas: `doce fresco especiado noite trabalho date dia`. `"verificado": false` mostra o aviso de "notas aproximadas".
+O site é gerado a partir de `data/perfumes.json`. Com o ficheiro `.github/workflows/static.yml` deste pacote no repositório, **basta editares esse ficheiro no GitHub**: o próprio GitHub gera as páginas e publica o site em 2 a 3 minutos.
+
+### Preparação (uma vez só)
+1. Em **Settings → Pages**, em *Build and deployment*, a fonte (Source) tem de ser **GitHub Actions**.
+2. No repositório abre `.github/workflows/static.yml`, clica no **lápis**, apaga tudo e cola o conteúdo do ficheiro `static.yml` deste pacote. Faz **Commit changes**. Esse ficheiro passa a gerar as páginas e a publicar o site de cada vez que alteras alguma coisa.
+3. Envia o resto da atualização (pastas `perfumes`, `vibe`, `data`, `tools` e `sitemap.xml`) com **Add file → Upload files**.
+
+### Adicionar um perfume
+1. No repositório abre `data/perfumes.json` e clica no **lápis** (Edit).
+2. Vai ao fim do ficheiro: o último perfume termina com `}` e depois vem `]`. Acrescenta uma vírgula a seguir ao último `}` e cola por baixo o bloco novo (modelo abaixo).
+3. Clica em **Commit changes**.
+4. Abre o separador **Actions**: aparece "Publicar site" a correr. Quando ficar com um visto verde, o site atualiza em 1 a 2 minutos. Se ficar com uma cruz vermelha, abre-o: a mensagem "ERRO:" diz o que corrigir (vírgula em falta, id repetido, tag inexistente) e o site antigo continua online.
+
+Modelo (copia, muda os valores e mantém as aspas e as vírgulas):
+
+```json
+{
+ "id": "nomesemespacos",
+ "marca": "LATTAFA",
+ "nome": "NOME DO PERFUME",
+ "notas": ["Baunilha", "Âmbar", "Caramelo", "Almíscar"],
+ "tags": ["doce", "noite"],
+ "ocasioes": ["noite", "date"],
+ "estacao": "outono e inverno",
+ "descricao": "Uma ou duas frases sobre o cheiro, sem comparar com marcas.",
+ "piramide": null,
+ "verificado": false
+}
+```
+
+- `id`: único, só letras minúsculas sem acentos e números, sem espaços.
+- `tags` válidas: `doce fresco especiado noite trabalho date dia`.
+- `ocasioes` válidas: `noite date festa dia trabalho`.
+- `estacao`: por exemplo `todo o ano`, `outono e inverno`, `primavera e verão`.
+- `verificado`: `false` mostra o aviso de "notas aproximadas". Põe `true` só quando confirmares as notas.
+- Para corrigir um perfume, edita o bloco dele no mesmo ficheiro. Para apagar, remove o bloco todo (e a vírgula que sobrar).
+
+### Sem Actions (alternativa)
+Corre `python3 tools/build.py` no teu computador (precisa só de Python 3) e envia para o GitHub os ficheiros alterados: **Add file → Upload files**, arrastando as pastas `perfumes`, `vibe` e os ficheiros `data/perfumes.json` e `sitemap.xml`.
 
 ## 6. Notas legais e boas práticas
 
