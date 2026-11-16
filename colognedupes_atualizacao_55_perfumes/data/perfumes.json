@@ -1,0 +1,1338 @@
+[
+ {
+  "id": "asad",
+  "marca": "LATTAFA",
+  "nome": "ASAD",
+  "notas": [
+   "Pimenta",
+   "Tabaco",
+   "Baunilha",
+   "Especiado"
+  ],
+  "tags": [
+   "especiado",
+   "doce",
+   "noite",
+   "date"
+  ],
+  "ocasioes": [
+   "noite",
+   "date"
+  ],
+  "estacao": "outono e inverno",
+  "descricao": "Perfil quente e especiado, com um fundo doce de baunilha. Tem presença e pede noites mais frescas.",
+  "piramide": null,
+  "verificado": true
+ },
+ {
+  "id": "khamrah",
+  "marca": "LATTAFA",
+  "nome": "KHAMRAH",
+  "notas": [
+   "Canela",
+   "Tâmara",
+   "Praliné",
+   "Baunilha"
+  ],
+  "tags": [
+   "doce",
+   "noite",
+   "date"
+  ],
+  "ocasioes": [
+   "noite",
+   "date"
+  ],
+  "estacao": "outono e inverno",
+  "descricao": "Doce, quente e envolvente: canela e tâmara dão um ar gourmand, com baunilha no final. Feito para o frio e para quem quer ser notado.",
+  "piramide": {
+   "topo": [
+    "Canela",
+    "Noz-moscada",
+    "Bergamota"
+   ],
+   "coracao": [
+    "Tâmaras",
+    "Praliné",
+    "Tuberosa"
+   ],
+   "base": [
+    "Baunilha",
+    "Fava tonka",
+    "Madeira de âmbar",
+    "Mirra",
+    "Benjoim"
+   ]
+  },
+  "verificado": true
+ },
+ {
+  "id": "9pm",
+  "marca": "AFNAN",
+  "nome": "9PM",
+  "notas": [
+   "Maçã",
+   "Baunilha",
+   "Tonka",
+   "Quente"
+  ],
+  "tags": [
+   "doce",
+   "noite"
+  ],
+  "ocasioes": [
+   "noite",
+   "festa"
+  ],
+  "estacao": "outono e inverno",
+  "descricao": "Doce e quente, com maçã à entrada e baunilha e tonka por baixo. Bom para saídas à noite; pode ser demasiado doce para o calor.",
+  "piramide": null,
+  "verificado": true
+ },
+ {
+  "id": "cdnim",
+  "marca": "ARMAF",
+  "nome": "CLUB DE NUIT INTENSE MAN",
+  "notas": [
+   "Ananás",
+   "Fumado",
+   "Fresco",
+   "Potente"
+  ],
+  "tags": [
+   "fresco",
+   "dia",
+   "trabalho"
+  ],
+  "ocasioes": [
+   "dia",
+   "trabalho"
+  ],
+  "estacao": "primavera e verão",
+  "descricao": "Fresco e frutado, com um toque fumado e boa projeção. Funciona de dia e no escritório; convém não exagerar nas borrifadas.",
+  "piramide": null,
+  "verificado": true
+ },
+ {
+  "id": "yara",
+  "marca": "LATTAFA",
+  "nome": "YARA",
+  "notas": [
+   "Orquídea",
+   "Tangerina",
+   "Baunilha",
+   "Almíscar"
+  ],
+  "tags": [
+   "doce",
+   "dia",
+   "date"
+  ],
+  "ocasioes": [
+   "dia",
+   "date"
+  ],
+  "estacao": "todo o ano",
+  "descricao": "Doce e cremoso, com um toque frutado de tangerina e um fundo suave de almíscar. Macio para o dia a dia, comercializado sobretudo para mulher.",
+  "piramide": null,
+  "verificado": true
+ },
+ {
+  "id": "eclaire",
+  "marca": "LATTAFA",
+  "nome": "ECLAIRE",
+  "notas": [
+   "Caramelo",
+   "Leite",
+   "Baunilha",
+   "Doce"
+  ],
+  "tags": [
+   "doce",
+   "date"
+  ],
+  "ocasioes": [
+   "date"
+  ],
+  "estacao": "outono e inverno",
+  "descricao": "Gourmand muito doce, com caramelo e leite sobre baunilha. Cheira a sobremesa: confortável e ideal para o frio.",
+  "piramide": null,
+  "verificado": true
+ },
+ {
+  "id": "honor",
+  "marca": "LATTAFA",
+  "nome": "HONOR & GLORY",
+  "notas": [
+   "Ananás",
+   "Cremoso",
+   "Canela",
+   "Pimenta"
+  ],
+  "tags": [
+   "especiado",
+   "doce",
+   "dia",
+   "noite"
+  ],
+  "ocasioes": [
+   "dia",
+   "noite"
+  ],
+  "estacao": "todo o ano",
+  "descricao": "Junta o frutado do ananás a um fundo cremoso e especiado de canela e pimenta. Versátil entre o dia e a noite.",
+  "piramide": null,
+  "verificado": true
+ },
+ {
+  "id": "choco",
+  "marca": "AL REHAB",
+  "nome": "CHOCO MUSK",
+  "notas": [
+   "Baunilha",
+   "Almíscar",
+   "Chocolate",
+   "Doce"
+  ],
+  "tags": [
+   "doce",
+   "dia"
+  ],
+  "ocasioes": [
+   "dia"
+  ],
+  "estacao": "todo o ano",
+  "descricao": "Doce e suave, com chocolate e almíscar. Discreto e muito acessível, bom para o dia a dia e para quem não quer algo intenso.",
+  "piramide": null,
+  "verificado": false
+ },
+ {
+  "id": "mandarin",
+  "marca": "ARMAF",
+  "nome": "MANDARIN SKY",
+  "notas": [
+   "Cítrico",
+   "Especiado",
+   "Fresco",
+   "Masculino"
+  ],
+  "tags": [
+   "fresco",
+   "dia",
+   "trabalho"
+  ],
+  "ocasioes": [
+   "dia",
+   "trabalho"
+  ],
+  "estacao": "primavera e verão",
+  "descricao": "Cítrico e fresco, com um toque especiado que lhe dá carácter. Funciona no escritório e nos dias quentes.",
+  "piramide": null,
+  "verificado": true
+ },
+ {
+  "id": "ana",
+  "marca": "LATTAFA",
+  "nome": "ANA ABIYEDH WHITE",
+  "notas": [
+   "Laranja",
+   "Bergamota",
+   "Fresco",
+   "Elegante"
+  ],
+  "tags": [
+   "fresco",
+   "dia",
+   "trabalho"
+  ],
+  "ocasioes": [
+   "dia",
+   "trabalho"
+  ],
+  "estacao": "primavera e verão",
+  "descricao": "Cítrico e limpo, com laranja e bergamota. Leve e elegante, para o calor e para o trabalho, a um preço baixo.",
+  "piramide": null,
+  "verificado": true
+ },
+ {
+  "id": "tres",
+  "marca": "ARMAF",
+  "nome": "TRES NUIT",
+  "notas": [
+   "Limão",
+   "Lavanda",
+   "Íris",
+   "Sândalo"
+  ],
+  "tags": [
+   "fresco",
+   "dia",
+   "trabalho"
+  ],
+  "ocasioes": [
+   "dia",
+   "trabalho"
+  ],
+  "estacao": "primavera e outono",
+  "descricao": "Aromático e limpo: limão e lavanda à frente, com íris e sândalo a dar elegância. Discreto e adequado ao escritório.",
+  "piramide": null,
+  "verificado": true
+ },
+ {
+  "id": "iconic",
+  "marca": "ARMAF",
+  "nome": "CLUB DE NUIT ICONIC",
+  "notas": [
+   "Frutado",
+   "Fresco",
+   "Suculento",
+   "Casual"
+  ],
+  "tags": [
+   "fresco",
+   "dia"
+  ],
+  "ocasioes": [
+   "dia"
+  ],
+  "estacao": "primavera e verão",
+  "descricao": "Frutado e fresco, com um lado suculento. Descontraído, para o dia a dia e ocasiões informais.",
+  "piramide": null,
+  "verificado": true
+ },
+ {
+  "id": "supremacy",
+  "marca": "AFNAN",
+  "nome": "SUPREMACY SILVER",
+  "notas": [
+   "Frutado",
+   "Amadeirado",
+   "Fresco",
+   "Elegante"
+  ],
+  "tags": [
+   "fresco",
+   "dia",
+   "trabalho"
+  ],
+  "ocasioes": [
+   "dia",
+   "trabalho"
+  ],
+  "estacao": "todo o ano",
+  "descricao": "Combina fruta fresca com madeiras para um resultado elegante e limpo. Escolha versátil para o trabalho e para o dia.",
+  "piramide": null,
+  "verificado": true
+ },
+ {
+  "id": "amberoudgold",
+  "marca": "AL HARAMAIN",
+  "nome": "AMBER OUD GOLD EDITION",
+  "notas": [
+   "Bergamota",
+   "Melão",
+   "Ananás",
+   "Baunilha"
+  ],
+  "tags": [
+   "fresco",
+   "doce",
+   "dia",
+   "date"
+  ],
+  "ocasioes": [
+   "dia",
+   "date"
+  ],
+  "estacao": "todo o ano",
+  "descricao": "Fresco e doce ao mesmo tempo: bergamota, melão e ananás sobre baunilha. Mais caro, com carácter próprio para dias especiais.",
+  "piramide": null,
+  "verificado": true
+ },
+ {
+  "id": "amberoud",
+  "marca": "AL HARAMAIN",
+  "nome": "AMBER OUD",
+  "notas": [
+   "Alecrim",
+   "Cedro",
+   "Âmbar",
+   "Almíscar"
+  ],
+  "tags": [
+   "dia",
+   "trabalho"
+  ],
+  "ocasioes": [
+   "dia",
+   "trabalho"
+  ],
+  "estacao": "outono e primavera",
+  "descricao": "Aromático e amadeirado, com alecrim e cedro sobre âmbar. Sóbrio e elegante, para o dia e para o escritório.",
+  "piramide": null,
+  "verificado": true
+ },
+ {
+  "id": "badee",
+  "marca": "LATTAFA",
+  "nome": "BADEE AL OUD AMETHYST",
+  "notas": [
+   "Frutado",
+   "Oud",
+   "Madeirado",
+   "Intenso"
+  ],
+  "tags": [
+   "noite"
+  ],
+  "ocasioes": [
+   "noite"
+  ],
+  "estacao": "outono e inverno",
+  "descricao": "Frutado, com oud e madeiras, de perfil intenso. Para a noite e para o frio, e para quem procura algo fora do habitual.",
+  "piramide": null,
+  "verificado": false
+ },
+ {
+  "id": "hawas",
+  "marca": "RASASI",
+  "nome": "HAWAS FOR HIM",
+  "notas": [
+   "Maçã",
+   "Canela",
+   "Ameixa",
+   "Âmbar"
+  ],
+  "tags": [
+   "especiado",
+   "noite",
+   "date"
+  ],
+  "ocasioes": [
+   "noite",
+   "date"
+  ],
+  "estacao": "outono e inverno",
+  "descricao": "Frutado e especiado, com maçã e canela à entrada, ameixa e cardamomo no coração e âmbar com patchouli no fundo. Tem projeção e serve para noites e ocasiões em que queres ser notado.",
+  "piramide": null,
+  "verificado": true
+ },
+ {
+  "id": "fakhar",
+  "marca": "LATTAFA",
+  "nome": "FAKHAR",
+  "notas": [
+   "Maçã",
+   "Gengibre",
+   "Lavanda",
+   "Tonka"
+  ],
+  "tags": [
+   "fresco",
+   "especiado",
+   "dia",
+   "noite"
+  ],
+  "ocasioes": [
+   "dia",
+   "noite"
+  ],
+  "estacao": "todo o ano",
+  "descricao": "Maçã e gengibre com lavanda e sálvia, sobre tonka, âmbar e cedro. Moderno e fácil de usar, do dia à noite.",
+  "piramide": null,
+  "verificado": true
+ },
+ {
+  "id": "asadbourbon",
+  "marca": "LATTAFA",
+  "nome": "ASAD BOURBON",
+  "notas": [
+   "Lavanda",
+   "Cacau",
+   "Baunilha bourbon",
+   "Âmbar"
+  ],
+  "tags": [
+   "especiado",
+   "doce",
+   "noite",
+   "date"
+  ],
+  "ocasioes": [
+   "noite",
+   "date"
+  ],
+  "estacao": "outono e inverno",
+  "descricao": "Quente e doce, com lavanda à entrada, cacau no coração e baunilha bourbon com âmbar no fundo. Confortável para o frio e para uma noite mais calma.",
+  "piramide": null,
+  "verificado": true
+ },
+ {
+  "id": "asadelixir",
+  "marca": "LATTAFA",
+  "nome": "ASAD ELIXIR",
+  "notas": [
+   "Pimenta",
+   "Café",
+   "Âmbar",
+   "Baunilha"
+  ],
+  "tags": [
+   "especiado",
+   "doce",
+   "noite"
+  ],
+  "ocasioes": [
+   "noite",
+   "date"
+  ],
+  "estacao": "outono e inverno",
+  "descricao": "Versão mais intensa da família Asad: pimenta e café à frente, com âmbar, baunilha e benjoim por baixo. Pensado para o frio e para quem quer projeção.",
+  "piramide": null,
+  "verificado": true
+ },
+ {
+  "id": "fakharblack",
+  "marca": "LATTAFA",
+  "nome": "FAKHAR BLACK",
+  "notas": [
+   "Maçã",
+   "Gengibre",
+   "Lavanda",
+   "Tonka"
+  ],
+  "tags": [
+   "fresco",
+   "especiado",
+   "dia",
+   "noite"
+  ],
+  "ocasioes": [
+   "dia",
+   "noite"
+  ],
+  "estacao": "todo o ano",
+  "descricao": "Abre fresco, com maçã, bergamota e gengibre, e fecha em tonka e madeiras. Moderno e fácil de usar, do dia à noite.",
+  "piramide": null,
+  "verificado": true
+ },
+ {
+  "id": "qaed",
+  "marca": "LATTAFA",
+  "nome": "QAED AL FURSAN",
+  "notas": [
+   "Ananás",
+   "Açafrão",
+   "Cedro",
+   "Âmbar"
+  ],
+  "tags": [
+   "fresco",
+   "dia"
+  ],
+  "ocasioes": [
+   "dia"
+  ],
+  "estacao": "primavera e verão",
+  "descricao": "Ananás suculento à entrada, com açafrão e um fundo de cedro e âmbar. Frutado e descontraído, para os dias quentes.",
+  "piramide": null,
+  "verificado": true
+ },
+ {
+  "id": "qaedunlimited",
+  "marca": "LATTAFA",
+  "nome": "QAED AL FURSAN UNLIMITED",
+  "notas": [
+   "Coco",
+   "Ananás",
+   "Baunilha",
+   "Almíscar"
+  ],
+  "tags": [
+   "doce",
+   "dia"
+  ],
+  "ocasioes": [
+   "dia"
+  ],
+  "estacao": "primavera e verão",
+  "descricao": "Tropical e cremoso: coco e ananás sobre baunilha, almíscar e sândalo. Leve e simpático, indicado para o verão e o dia a dia.",
+  "piramide": null,
+  "verificado": true
+ },
+ {
+  "id": "alfursan",
+  "marca": "LATTAFA",
+  "nome": "AL FURSAN",
+  "notas": [
+   "Mel",
+   "Chocolate negro",
+   "Oud",
+   "Baunilha"
+  ],
+  "tags": [
+   "doce",
+   "especiado",
+   "noite"
+  ],
+  "ocasioes": [
+   "noite",
+   "date"
+  ],
+  "estacao": "outono e inverno",
+  "descricao": "Doce e especiado, com mel e chocolate negro sobre oud, baunilha e âmbar. Intenso e envolvente, mais para a noite e para o frio.",
+  "piramide": null,
+  "verificado": true
+ },
+ {
+  "id": "rebel",
+  "marca": "AFNAN",
+  "nome": "9PM REBEL",
+  "notas": [
+   "Ananás",
+   "Maçã verde",
+   "Baunilha",
+   "Caramelo"
+  ],
+  "tags": [
+   "doce",
+   "fresco",
+   "dia",
+   "noite"
+  ],
+  "ocasioes": [
+   "dia",
+   "noite"
+  ],
+  "estacao": "todo o ano",
+  "descricao": "Frutado e cremoso, com ananás e maçã verde à entrada e caramelo e baunilha por baixo. Energético e versátil.",
+  "piramide": null,
+  "verificado": true
+ },
+ {
+  "id": "odyssey",
+  "marca": "ARMAF",
+  "nome": "ODYSSEY MEGA MAN",
+  "notas": [
+   "Cítrico",
+   "Menta",
+   "Gengibre",
+   "Tonka"
+  ],
+  "tags": [
+   "fresco",
+   "dia",
+   "trabalho"
+  ],
+  "ocasioes": [
+   "dia",
+   "trabalho"
+  ],
+  "estacao": "primavera e verão",
+  "descricao": "Cítrico e fresco, com menta e gengibre e um fundo de tonka e cedro. Limpo e moderno, bom para o trabalho e para o calor.",
+  "piramide": null,
+  "verificado": true
+ },
+ {
+  "id": "untold",
+  "marca": "ARMAF",
+  "nome": "CLUB DE NUIT UNTOLD",
+  "notas": [
+   "Açafrão",
+   "Jasmim",
+   "Âmbar",
+   "Cedro"
+  ],
+  "tags": [
+   "dia",
+   "date"
+  ],
+  "ocasioes": [
+   "dia",
+   "date"
+  ],
+  "estacao": "todo o ano",
+  "descricao": "Âmbar e açafrão com um toque de jasmim e cedro. Elegante, com um ar ambarado e limpo que serve a homem e a mulher.",
+  "piramide": null,
+  "verificado": true
+ },
+ {
+  "id": "yaracandy",
+  "marca": "LATTAFA",
+  "nome": "YARA CANDY",
+  "notas": [
+   "Groselha-negra",
+   "Morango",
+   "Baunilha",
+   "Almíscar"
+  ],
+  "tags": [
+   "doce",
+   "dia"
+  ],
+  "ocasioes": [
+   "dia"
+  ],
+  "estacao": "primavera e verão",
+  "descricao": "Doce e frutado, com groselha-negra e um toque de morango sobre baunilha e almíscar. Leve e divertido, comercializado para mulher.",
+  "piramide": null,
+  "verificado": true
+ },
+ {
+  "id": "dukhan",
+  "marca": "LATTAFA",
+  "nome": "KHAMRAH DUKHAN",
+  "notas": [
+   "Mandarina",
+   "Tabaco",
+   "Praliné",
+   "Incenso"
+  ],
+  "tags": [
+   "especiado",
+   "doce",
+   "noite",
+   "date"
+  ],
+  "ocasioes": [
+   "noite",
+   "date"
+  ],
+  "estacao": "outono e inverno",
+  "descricao": "Mais seco e fumado do que o Khamrah original: mandarina e especiarias à entrada, incenso no coração e tabaco com praliné no fundo. Para o frio e para a noite.",
+  "piramide": null,
+  "verificado": true
+ },
+ {
+  "id": "raghba",
+  "marca": "LATTAFA",
+  "nome": "RAGHBA",
+  "notas": [
+   "Oud",
+   "Canela",
+   "Baunilha",
+   "Âmbar"
+  ],
+  "tags": [
+   "doce",
+   "especiado",
+   "noite"
+  ],
+  "ocasioes": [
+   "noite",
+   "date"
+  ],
+  "estacao": "outono e inverno",
+  "descricao": "Oud doce e fumado, com canela e açafrão à frente e baunilha e âmbar no fundo. Uma boa porta de entrada para os perfumes de oud.",
+  "piramide": null,
+  "verificado": true
+ },
+ {
+  "id": "hawasice",
+  "marca": "RASASI",
+  "nome": "HAWAS ICE",
+  "notas": [
+   "Maçã",
+   "Limão",
+   "Ameixa",
+   "Almíscar"
+  ],
+  "tags": [
+   "fresco",
+   "dia"
+  ],
+  "ocasioes": [
+   "dia"
+  ],
+  "estacao": "primavera e verão",
+  "descricao": "Fresco e frutado, com maçã, limão e anis-estrelado, e ameixa e flor de laranjeira no coração. Pensado para os dias quentes.",
+  "piramide": null,
+  "verificado": true
+ },
+ {
+  "id": "turathi",
+  "marca": "AFNAN",
+  "nome": "TURATHI BLUE",
+  "notas": [
+   "Cítrico",
+   "Madeiras",
+   "Âmbar",
+   "Almíscar"
+  ],
+  "tags": [
+   "fresco",
+   "dia",
+   "trabalho"
+  ],
+  "ocasioes": [
+   "dia",
+   "trabalho"
+  ],
+  "estacao": "primavera e verão",
+  "descricao": "Cítrico e aquático, com madeiras e âmbar no fundo. Limpo e discreto, para o escritório e para o verão.",
+  "piramide": null,
+  "verificado": true
+ },
+ {
+  "id": "urban",
+  "marca": "ARMAF",
+  "nome": "CLUB DE NUIT URBAN ELIXIR",
+  "notas": [
+   "Bergamota",
+   "Pimenta rosa",
+   "Lavanda",
+   "Âmbar"
+  ],
+  "tags": [
+   "especiado",
+   "fresco",
+   "dia",
+   "noite"
+  ],
+  "ocasioes": [
+   "dia",
+   "noite"
+  ],
+  "estacao": "todo o ano",
+  "descricao": "Bergamota e pimenta rosa à entrada, lavanda no coração e âmbar com cedro no fundo. Aromático e moderno.",
+  "piramide": null,
+  "verificado": true
+ },
+ {
+  "id": "hayaati",
+  "marca": "LATTAFA",
+  "nome": "HAYAATI",
+  "notas": [
+   "Maçã",
+   "Bergamota",
+   "Canela",
+   "Baunilha"
+  ],
+  "tags": [
+   "fresco",
+   "especiado",
+   "dia"
+  ],
+  "ocasioes": [
+   "dia",
+   "trabalho"
+  ],
+  "estacao": "primavera e outono",
+  "descricao": "Maçã e bergamota com um toque quente de canela e baunilha por baixo. Simples e confortável, uma boa escolha para quem está a começar.",
+  "piramide": null,
+  "verificado": true
+ },
+ {
+  "id": "hayaatigold",
+  "marca": "LATTAFA",
+  "nome": "HAYAATI GOLD ELIXIR",
+  "notas": [
+   "Couro",
+   "Pêssego",
+   "Açafrão",
+   "Baunilha"
+  ],
+  "tags": [
+   "doce",
+   "noite",
+   "date"
+  ],
+  "ocasioes": [
+   "noite",
+   "date"
+  ],
+  "estacao": "outono e inverno",
+  "descricao": "Couro doce com pêssego e açafrão sobre baunilha e âmbar. Mais marcante e quente, para a noite e para o frio.",
+  "piramide": null,
+  "verificado": true
+ },
+ {
+  "id": "maleky",
+  "marca": "LATTAFA",
+  "nome": "HAYAATI AL MALEKY",
+  "notas": [
+   "Pimenta rosa",
+   "Gengibre",
+   "Cedro",
+   "Âmbar"
+  ],
+  "tags": [
+   "especiado",
+   "noite"
+  ],
+  "ocasioes": [
+   "noite",
+   "date"
+  ],
+  "estacao": "outono e inverno",
+  "descricao": "Pimenta rosa e gengibre à entrada, cedro e incenso no coração e âmbar no fundo. Quente e aromático.",
+  "piramide": null,
+  "verificado": true
+ },
+ {
+  "id": "supoud",
+  "marca": "AFNAN",
+  "nome": "SUPREMACY IN OUD",
+  "notas": [
+   "Açafrão",
+   "Noz-moscada",
+   "Oud",
+   "Patchouli"
+  ],
+  "tags": [
+   "especiado",
+   "noite"
+  ],
+  "ocasioes": [
+   "noite",
+   "date"
+  ],
+  "estacao": "outono e inverno",
+  "descricao": "Açafrão e noz-moscada à entrada, com oud e notas doces no coração e patchouli no fundo. Um oud acessível e fácil de usar.",
+  "piramide": null,
+  "verificado": true
+ },
+ {
+  "id": "sublime",
+  "marca": "LATTAFA",
+  "nome": "BADEE AL OUD SUBLIME",
+  "notas": [
+   "Maçã",
+   "Lichi",
+   "Ameixa",
+   "Baunilha"
+  ],
+  "tags": [
+   "doce",
+   "fresco",
+   "dia"
+  ],
+  "ocasioes": [
+   "dia",
+   "date"
+  ],
+  "estacao": "primavera e verão",
+  "descricao": "Frutado e floral: maçã, lichi e rosa, com ameixa e jasmim, sobre musgo, baunilha e patchouli. Suave e unissexo.",
+  "piramide": null,
+  "verificado": true
+ },
+ {
+  "id": "eclairepistacio",
+  "marca": "LATTAFA",
+  "nome": "ECLAIRE PISTÁCIO",
+  "notas": [
+   "Pistácio",
+   "Creme",
+   "Doce",
+   "Gourmand"
+  ],
+  "tags": [
+   "doce",
+   "date"
+  ],
+  "ocasioes": [
+   "date"
+  ],
+  "estacao": "outono e inverno",
+  "descricao": "Variante gourmand da linha Eclaire, com pistácio cremoso e um lado de pastelaria. Muito doce e confortável: melhor para o frio e para quem gosta de cheiros de sobremesa.",
+  "piramide": null,
+  "verificado": false
+ },
+ {
+  "id": "eclairebanoffi",
+  "marca": "LATTAFA",
+  "nome": "ECLAIRE BANOFFI",
+  "notas": [
+   "Banana",
+   "Doce de leite",
+   "Doce",
+   "Gourmand"
+  ],
+  "tags": [
+   "doce",
+   "date"
+  ],
+  "ocasioes": [
+   "date"
+  ],
+  "estacao": "outono e inverno",
+  "descricao": "Gourmand com banana e doce de leite, ao estilo banoffee. Muito doce e cremoso, mais indicado para o frio do que para o calor.",
+  "piramide": null,
+  "verificado": false
+ },
+ {
+  "id": "khamrahqahwa",
+  "marca": "LATTAFA",
+  "nome": "KHAMRAH QAHWA",
+  "notas": [
+   "Café",
+   "Especiado",
+   "Baunilha",
+   "Tonka"
+  ],
+  "tags": [
+   "doce",
+   "especiado",
+   "noite"
+  ],
+  "ocasioes": [
+   "noite",
+   "date"
+  ],
+  "estacao": "outono e inverno",
+  "descricao": "A versão com café do Khamrah: especiarias e café à frente, com praliné, baunilha e fava tonka por baixo. Quente e gourmand, feito para o frio e para a noite.",
+  "piramide": {
+   "topo": [
+    "Canela",
+    "Cardamomo",
+    "Gengibre"
+   ],
+   "coracao": [
+    "Praliné",
+    "Frutas cristalizadas",
+    "Flores brancas"
+   ],
+   "base": [
+    "Café",
+    "Baunilha",
+    "Fava tonka",
+    "Almíscar"
+   ]
+  },
+  "verificado": false
+ },
+ {
+  "id": "detournoir",
+  "marca": "AL HARAMAIN",
+  "nome": "DETOUR NOIR",
+  "notas": [
+   "Lavanda",
+   "Maçã",
+   "Baunilha",
+   "Madeiras"
+  ],
+  "tags": [
+   "doce",
+   "noite",
+   "date"
+  ],
+  "ocasioes": [
+   "noite",
+   "date"
+  ],
+  "estacao": "outono e inverno",
+  "descricao": "Aromático e quente: lavanda e maçã à entrada, com baunilha e madeiras por baixo. Elegante, para a noite e para o frio.",
+  "piramide": null,
+  "verificado": false
+ },
+ {
+  "id": "maahir",
+  "marca": "LATTAFA",
+  "nome": "MAAHIR BLACK EDITION",
+  "notas": [
+   "Couro",
+   "Incenso",
+   "Pimenta preta",
+   "Escuro"
+  ],
+  "tags": [
+   "especiado",
+   "noite"
+  ],
+  "ocasioes": [
+   "noite"
+  ],
+  "estacao": "outono e inverno",
+  "descricao": "Escuro e marcante, com couro, incenso e pimenta preta. Pede noites frias e não é para quem procura algo discreto.",
+  "piramide": null,
+  "verificado": false
+ },
+ {
+  "id": "fakharplatinum",
+  "marca": "LATTAFA",
+  "nome": "FAKHAR PLATINUM",
+  "notas": [
+   "Pau-santo",
+   "Incenso",
+   "Amadeirado",
+   "Limpo"
+  ],
+  "tags": [
+   "fresco",
+   "dia",
+   "trabalho"
+  ],
+  "ocasioes": [
+   "dia",
+   "trabalho"
+  ],
+  "estacao": "todo o ano",
+  "descricao": "Amadeirado e limpo, com pau-santo e incenso. Sóbrio e fácil de usar no escritório e no dia a dia.",
+  "piramide": null,
+  "verificado": false
+ },
+ {
+  "id": "kismet",
+  "marca": "MAISON ALHAMBRA",
+  "nome": "KISMET MAGIC",
+  "notas": [
+   "Doce",
+   "Especiado",
+   "Amadeirado",
+   "Elegante"
+  ],
+  "tags": [
+   "doce",
+   "especiado",
+   "noite",
+   "date"
+  ],
+  "ocasioes": [
+   "noite",
+   "date"
+  ],
+  "estacao": "outono e inverno",
+  "descricao": "Doce e especiado, com madeiras que lhe dão elegância. Um perfil quente para a noite e para o frio.",
+  "piramide": null,
+  "verificado": false
+ },
+ {
+  "piramide": null,
+  "verificado": false,
+  "id": "teriaqintense",
+  "marca": "LATTAFA",
+  "nome": "TERIAQ INTENSE",
+  "notas": [
+   "Açafrão",
+   "Couro",
+   "Caramelo",
+   "Baunilha"
+  ],
+  "tags": [
+   "doce",
+   "especiado",
+   "noite"
+  ],
+  "ocasioes": [
+   "noite",
+   "date"
+  ],
+  "estacao": "outono e inverno",
+  "descricao": "Quente e especiado, com açafrão e couro sobre caramelo e baunilha. Intenso e envolvente: pede noites frias."
+ },
+ {
+  "piramide": null,
+  "verificado": false,
+  "id": "pridenebras",
+  "marca": "LATTAFA",
+  "nome": "PRIDE NEBRAS",
+  "notas": [
+   "Framboesa",
+   "Cacau",
+   "Baunilha",
+   "Âmbar"
+  ],
+  "tags": [
+   "doce",
+   "date",
+   "noite"
+  ],
+  "ocasioes": [
+   "date",
+   "noite"
+  ],
+  "estacao": "outono e inverno",
+  "descricao": "Doce e gourmand, com framboesa e cacau sobre baunilha e âmbar. Pensado para o frio e para encontros."
+ },
+ {
+  "piramide": null,
+  "verificado": false,
+  "id": "odysseydubaichocolat",
+  "marca": "ARMAF",
+  "nome": "ODYSSEY DUBAI CHOCOLAT",
+  "notas": [
+   "Pistácio",
+   "Café",
+   "Chocolate",
+   "Caramelo"
+  ],
+  "tags": [
+   "doce",
+   "noite",
+   "date"
+  ],
+  "ocasioes": [
+   "noite",
+   "date"
+  ],
+  "estacao": "outono e inverno",
+  "descricao": "Gourmand de sobremesa, com pistácio, café e chocolate sobre caramelo. Muito doce: melhor para o frio e para quem gosta de cheiros comestíveis."
+ },
+ {
+  "piramide": null,
+  "verificado": false,
+  "id": "sabahalward",
+  "marca": "AL WATANIAH",
+  "nome": "SABAH AL WARD",
+  "notas": [
+   "Mandarina",
+   "Cacau",
+   "Jasmim",
+   "Baunilha"
+  ],
+  "tags": [
+   "doce",
+   "dia",
+   "date"
+  ],
+  "ocasioes": [
+   "dia",
+   "date"
+  ],
+  "estacao": "primavera e outono",
+  "descricao": "Floral e cremoso, com mandarina e flor de laranjeira sobre cacau e baunilha. Suave e fácil de usar."
+ },
+ {
+  "piramide": null,
+  "verificado": false,
+  "id": "victoria",
+  "marca": "LATTAFA",
+  "nome": "VICTORIA",
+  "notas": [
+   "Limão",
+   "Néroli",
+   "Baunilha",
+   "Cremoso"
+  ],
+  "tags": [
+   "doce",
+   "fresco",
+   "dia"
+  ],
+  "ocasioes": [
+   "dia"
+  ],
+  "estacao": "primavera e verão",
+  "descricao": "Doce e cítrico, com um toque de tarte de limão com merengue, néroli e baunilha. Leve e confortável para o dia a dia."
+ },
+ {
+  "piramide": null,
+  "verificado": false,
+  "id": "haya",
+  "marca": "LATTAFA",
+  "nome": "HAYA",
+  "notas": [
+   "Rosa",
+   "Gardénia",
+   "Praliné",
+   "Âmbar"
+  ],
+  "tags": [
+   "doce",
+   "dia",
+   "date"
+  ],
+  "ocasioes": [
+   "dia",
+   "date"
+  ],
+  "estacao": "primavera e outono",
+  "descricao": "Floral e doce, com rosa e gardénia sobre praliné e âmbar. Cremoso e confortável."
+ },
+ {
+  "piramide": null,
+  "verificado": false,
+  "id": "sheikhalshuyukhluxe",
+  "marca": "LATTAFA",
+  "nome": "SHEIKH AL SHUYUKH LUXE EDITION",
+  "notas": [
+   "Açafrão",
+   "Caramelo",
+   "Oud",
+   "Baunilha"
+  ],
+  "tags": [
+   "doce",
+   "especiado",
+   "noite"
+  ],
+  "ocasioes": [
+   "noite",
+   "date"
+  ],
+  "estacao": "outono e inverno",
+  "descricao": "Especiado e doce, com açafrão e caramelo sobre oud e baunilha. Intenso, para o frio."
+ },
+ {
+  "piramide": null,
+  "verificado": false,
+  "id": "ajwad",
+  "marca": "LATTAFA",
+  "nome": "AJWAD",
+  "notas": [
+   "Frutado",
+   "Rosa",
+   "Almíscar",
+   "Baunilha"
+  ],
+  "tags": [
+   "doce",
+   "dia",
+   "date"
+  ],
+  "ocasioes": [
+   "dia",
+   "date"
+  ],
+  "estacao": "todo o ano",
+  "descricao": "Frutado e floral, com rosa e jasmim sobre almíscar e baunilha. Macio e fácil de usar. O formato habitual é de 60 ml."
+ },
+ {
+  "piramide": null,
+  "verificado": false,
+  "id": "emaan",
+  "marca": "LATTAFA",
+  "nome": "EMAAN",
+  "notas": [
+   "Bergamota",
+   "Tuberosa",
+   "Baunilha",
+   "Almíscar"
+  ],
+  "tags": [
+   "fresco",
+   "dia",
+   "date"
+  ],
+  "ocasioes": [
+   "dia",
+   "date"
+  ],
+  "estacao": "primavera e verão",
+  "descricao": "Floral e luminoso, com bergamota e tuberosa sobre baunilha e almíscar. Elegante e discreto."
+ },
+ {
+  "piramide": null,
+  "verificado": false,
+  "id": "yaramoi",
+  "marca": "LATTAFA",
+  "nome": "YARA MOI",
+  "notas": [
+   "Jasmim",
+   "Pêssego",
+   "Caramelo",
+   "Sândalo"
+  ],
+  "tags": [
+   "doce",
+   "dia",
+   "date"
+  ],
+  "ocasioes": [
+   "dia",
+   "date"
+  ],
+  "estacao": "todo o ano",
+  "descricao": "Doce e macio, com jasmim e pêssego sobre caramelo e sândalo. Confortável para o dia a dia."
+ }
+]
