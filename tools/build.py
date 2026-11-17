@@ -87,6 +87,7 @@ def page(depth, title, desc, path, body, extra_head="", noindex=False, root=None
 <p>Todas as marcas e nomes de produtos pertencem aos respetivos titulares. Este site é independente e não tem qualquer ligação às marcas mencionadas. Os perfumes aqui apresentados são fragrâncias próprias de cada marca, descritas pelas suas notas e ambiente.</p>
 <p><a href="{r}privacidade/">Privacidade e aviso legal</a> · © CologneDupes</p></div></footer>
 <script src="{r}assets/app.js?v={VERSION}" defer></script>
+<script>window.goatcounter={{referrer:function(){{var p=new URLSearchParams(location.search),s=(p.get('ref')||p.get('utm_source')||'').toLowerCase(),m={{instagram:'https://instagram.com',tiktok:'https://tiktok.com'}};return m[s]||(s?'https://'+s:document.referrer)}}}};</script>
 <script data-goatcounter="https://colognedupes.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body></html>"""
 
