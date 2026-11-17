@@ -87,6 +87,7 @@ def page(depth, title, desc, path, body, extra_head="", noindex=False, root=None
 <p>Todas as marcas e nomes de produtos pertencem aos respetivos titulares. Este site é independente e não tem qualquer ligação às marcas mencionadas. Os perfumes aqui apresentados são fragrâncias próprias de cada marca, descritas pelas suas notas e ambiente.</p>
 <p><a href="{r}privacidade/">Privacidade e aviso legal</a> · © CologneDupes</p></div></footer>
 <script src="{r}assets/app.js?v={VERSION}" defer></script>
+<script data-goatcounter="https://colognedupes.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body></html>"""
 
 
@@ -188,7 +189,7 @@ write("comunidade/index.html", page(1, "Comunidade | CologneDupes", "Fórum para
 # ---------- privacidade
 contacto = f'Contacto: <a href="mailto:{e(S["contacto"])}">{e(S["contacto"])}</a>.' if S.get("contacto") else "Contacto: através do perfil @colognedupes.pt no TikTok."
 body = f"""<section class="det"><h1>Privacidade e aviso legal</h1>
-<h3>O que este site recolhe</h3><p>Este site não usa cookies, não tem contas e não recolhe dados pessoais nem estatísticas de visitas. O teste &ldquo;Descobre o teu perfume&rdquo; corre no teu navegador e não guarda nada.</p>
+<h3>O que este site recolhe</h3><p>Este site não usa cookies, não tem contas e não recolhe dados pessoais. Para contar visitas usamos o GoatCounter, que regista estatísticas anónimas (página vista, origem, navegador, tamanho do ecrã e país) sem cookies e sem guardar o endereço IP. O teste &ldquo;Descobre o teu perfume&rdquo; corre no teu navegador e não guarda nada.</p>
 <h3>Alojamento</h3><p>O site está alojado no GitHub Pages (GitHub, Inc.). O alojamento pode registar dados técnicos de ligação, como o endereço IP, para funcionamento e segurança. Consulta a declaração de privacidade do GitHub.</p>
 <h3>Serviços de terceiros (só carregam se clicares)</h3><p><b>TikTok:</b> o vídeo incorporado só é carregado se carregares em &ldquo;Ver aqui&rdquo;. Ao fazê-lo, o TikTok pode colocar cookies e tratar dados segundo a sua política.</p>
 <p><b>Comentários (Giscus / GitHub Discussions):</b> só carregam se carregares em &ldquo;Mostrar comentários&rdquo;. Para comentar é necessária uma conta GitHub e o comentário fica público, sob a política do GitHub. Podes pedir a remoção de um comentário teu.</p>
